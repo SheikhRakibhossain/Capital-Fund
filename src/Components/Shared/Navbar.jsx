@@ -58,9 +58,15 @@ const Navbar = () => {
           <li tabIndex={0}>
             <details>
               <summary className="hover:text-gray-600">Business Resources</summary>
-              <ul className="p-4 rounded-none z-20 ">
+              <ul className="p-4 rounded-none z-20 min-w-[200px] shadow-md">
                 <li>
                   <a>Submenu 1</a>
+                </li>
+                <li>
+                  <a>Submenu 2</a>
+                </li>
+                <li>
+                  <a>Submenu 2</a>
                 </li>
                 <li>
                   <a>Submenu 2</a>
@@ -79,8 +85,10 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
-      <div className="navbar-end">
-        <a className="btn">Button</a>
+      <div className="navbar-end gap-3">
+      <button className="btn btn-outline btn-success btn-sm">Become a Partner</button>
+      <button className="btn btn-success btn-sm">Apply Now</button>
+
       </div>
     </div>
     </>
