@@ -34,7 +34,7 @@ const Navbar = () => {
             </li>
             <li>
               <a>Parent</a>
-              <ul className="p-2">
+              <ul className="p-2 ">
                 <li>
                   <a>Submenu 1</a>
                 </li>
@@ -58,7 +58,7 @@ const Navbar = () => {
           <li tabIndex={0}>
             <details>
               <summary className="hover:text-gray-600">Business Resources</summary>
-              <ul className="p-2">
+              <ul className="p-4 rounded-none z-20 ">
                 <li>
                   <a>Submenu 1</a>
                 </li>
